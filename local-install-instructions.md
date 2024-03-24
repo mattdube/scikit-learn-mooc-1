@@ -23,7 +23,7 @@ cd scikit-learn-mooc
 conda env create -f environment.yml
 ```
 
-## Check your install 
+## Check your install
 
 To make sure you have all the necessary packages installed, we **strongly
 recommend** you to execute the `check_env.py` script located at the root of
@@ -46,11 +46,11 @@ Using python in /home/lesteve/miniconda3/envs/scikit-learn-course
 [ OK ] numpy version 1.19.5
 [ OK ] scipy version 1.6.0
 [ OK ] matplotlib version 3.3.3
-[ OK ] sklearn version 1.1.1
-[ OK ] pandas version 1.2.0
-[ OK ] seaborn version 0.11.1
+[ OK ] sklearn version 1.3
+[ OK ] pandas version 2.0
+[ OK ] seaborn version 0.13
 [ OK ] notebook version 6.2.0
-[ OK ] plotly version 4.14.3
+[ OK ] plotly version 5.10.0
 ```
 
 ## Run Jupyter notebooks locally
@@ -58,9 +58,8 @@ Using python in /home/lesteve/miniconda3/envs/scikit-learn-course
 ```sh
 # Activate your conda environment
 conda activate scikit-learn-course
-jupyter notebook full-index.md
+jupyter notebook full-index.ipynb
 ```
 
-`full-index.md` is an index file helping to navigate the notebooks.
+`full-index.ipynb` is an index file helping to navigate the notebooks.
 All the Jupyter notebooks are located in the `notebooks` folder.
-
